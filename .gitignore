@@ -1,0 +1,5 @@
+#忽略`.ipynb_checkpoints/`文件夹
+.ipynb_checkpoints/ 
+
+#忽略`.vscode/`文件夹
+.vscode/
