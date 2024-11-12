@@ -15,7 +15,7 @@
 7. 如果有其他约定的事项，请更新此`README.md`。
 
 # auto-dl使用技巧
-1. 官方教程非常全面，大部分的问题里面都有解答，包括但不限于：SSH连接、资源加速、vscode配置等。[auto-dl官方文档](https://www.autodl.com/docs)  
+1. 官方教程非常全面，大部分的问题里面都有解答，包括但不限于：SSH连接、资源加速、vscode配置等。[auto-dl官方文档](https://www.autodl.com/docs/)  
 
 2. 资源加速：auto-dl官方提供了内置服务。 
 加速主要涵盖了：
