@@ -3,6 +3,3 @@
 
 #忽略`.vscode/`文件夹
 .vscode/
-
-#忽略`config`文件
-config.md
