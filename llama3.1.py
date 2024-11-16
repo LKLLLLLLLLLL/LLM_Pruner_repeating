@@ -3,17 +3,16 @@ import transformers
 import torch
 
 model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
-cache_dir = "/root/autodl-tmp/cache" # 模型缓存目录，别的文件也可以直接使用该缓存
 
 #登录hugging-face
-from huggingface_hub import login
-login() 
+# from huggingface_hub import login
+# login() 
 
 # 加载 tokenizer
-tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, cache_dir=cache_dir)
+tokenizer = transformers.AutoTokenizer.from_pretrained(model_id)
 
 # 加载模型
-model = transformers.AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16, cache_dir=cache_dir)
+model = transformers.AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16)
 
 # 将模型移动到 GPU
 model.to("cuda:0")
