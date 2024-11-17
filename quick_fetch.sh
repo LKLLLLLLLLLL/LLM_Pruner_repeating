@@ -14,7 +14,7 @@ python3 ./fetchscrips/login.py
 echo "Login process completed."
 
 echo "Starting to fetch dataset and model simultaneously..."
-python3 ./fetchscrips/fetchModel.py && echo "model cache finished"
-python3 ./fetchscrips/fetchDataset.py && echo "dataset cache finished"
+python3 ./fetchscrips/fetchModel.py && echo "model cache finished."
+python3 ./fetchscrips/fetchDataset.py && echo "dataset cache finished."
 
 echo "Done."
